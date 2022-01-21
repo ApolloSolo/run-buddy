@@ -220,3 +220,60 @@ section{
     margin: 0;
     display: inline-block;
   }
+
+  .contact{
+      background-color: #024e76;
+      text-align: center;
+  }
+
+  .contact h2 {
+    color: #fce138;
+    border-color: #39a6b2;
+  }
+
+  .contact-info{
+      display: inline-block;
+  }
+
+  .contact-info iframe {
+    width: 400px;
+    height: 400px;
+  }
+
+  .location{
+      float: right;
+      margin-left: 1.5rem;
+      line-height: 1.5;
+      color: #fff;
+      padding: 2rem;
+      text-decoration: none;
+      font-size: 1.25rem;
+  }
+
+  .location h3{
+    font-size: 26px;
+    margin-bottom: 25px;
+    color: #fce138;
+    text-align: left;
+  }
+
+  .location p{
+      margin-bottom: 1rem;
+  }
+
+  .location address{
+    margin-bottom: 1rem;
+  }
+
+  .p-e{
+    margin-top: 1rem;
+  }
+
+  .p-e a {
+    color: #fce138;
+  }
+
+  .map-contact{
+    width: fit-content;
+    margin: 0 auto;  
+  }
