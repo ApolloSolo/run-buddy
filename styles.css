@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(53, 151, 216);
+    padding: .5rem;
+    color: rgb(173, 202, 10);
+}
+
+.navbar{
+    
+}
+
+.navbar a{
+    margin-right: 2rem;
+    text-decoration: none;
+    color: rgb(173, 202, 10);
+}
+
+.jumbotron{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url("https://images.unsplash.com/photo-1581889470536-467bdbe30cd0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cnVubmluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbo-img{
+    height: 100vh;
+    width: 100%;
+}
+
+.form-head{
+    text-align: center;
+}
+
+.form-container{
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    
+    min-width: 400px;
+    max-width: 50%;
+    min-height: 500px;
+    background-color: rgb(228, 216, 57);
+    border: solid rgb(0, 0, 80) .25rem;
+    padding: 1rem;
+}
+
+.form{
+    
+}
+
+input{
+    width: 98%;
+    margin-top: .5rem;
+}
+
+.radio{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.radio input{
+    width: fit-content;
+}
+
+.age-ack{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.age-ack label{
+    flex-grow: 5;
+}
