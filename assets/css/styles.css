@@ -286,11 +286,18 @@ section{
   }
 
   .contact-info{
-      display: inline-block;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      background-color: #024e76;
+  }
+
+  .contact-info > * {
+    flex: 1;
+    margin: 15px;
   }
 
   .contact-info iframe {
-    width: 400px;
     height: 400px;
   }
 
@@ -311,16 +318,12 @@ section{
     text-align: left;
   }
 
-  .location p{
-      margin-bottom: 1rem;
+  .contact-info p{
+      font-size: 16px;
   }
 
   .location address{
     margin-bottom: 1rem;
-  }
-
-  .p-e{
-    margin-top: 1rem;
   }
 
   .p-e a {
@@ -330,4 +333,25 @@ section{
   .map-contact{
     width: fit-content;
     margin: 0 auto;  
+  }
+
+  .contact-form input, .contact-form textarea{
+    display: block;
+    width: 100%;
+    border: 1px solid #024e76;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 0.5rem;
+  }
+
+  .contact-form button{
+    width: 100%;
+    border: none;
+    background: #fce138;
+    color: #024e76;
+    padding: 15px 0;
+    font-size: 16px;
   }
